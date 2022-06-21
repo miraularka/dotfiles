@@ -1,7 +1,20 @@
-# dotfiles
+# Mirau's Dotfiles
 Mirau's current used .config files for a consistent Linux desktop experience.
 
-i3            -Window Manager
-Polybar       -Taskbar overlayed onto i3
-Kitty         -Terminal Emulator
-Alias         -Setup for aliases within Bash
+
+## Dependencies
+* i3
+* polybar
+* rofi
+* kitty
+* Neofetch
+
+
+## Installation
+Your standard stuff. Each config has a pretty standard install location.
+* i3 `~/.config/i3/`
+* Polybar `~/.config/polybar/`
+* Rofi `~/.config/rofi/`
+* Kitty `~/.config/kitty`
+* Neofetch `~/.config/neofetch`
+* Bash Aliases `~/.bashrc`
