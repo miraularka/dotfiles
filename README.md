@@ -11,21 +11,21 @@ Mirau's current used .config files for a consistent Linux desktop experience.
 * Dunst
 
 ## Polybar Scripts
-* ```[module/duo]
+```[module/duo]
 type = custom/script
 exec = python3 $HOME/.config/polybar/duo.py
 interval = 120
 label = %output%
 click-left = brave-browser duolingo.com
 ```
-* ```[module/crypto]
+```[module/crypto]
 type = custom/script
 interval = 300
 exec = $HOME/.config/polybar/crypto.py
 format-prefix = ""
 format-prefix-foreground = #f2a900
 ```
-*```[module/cmus]
+```[module/cmus]
 type = custom/script
 exec = cmus-remote -Q | grep 'stream ' | cut -d' ' -f2-
 interval = 5
@@ -38,7 +38,7 @@ click-right = cmus-remote -s | notify-send "Music Stopped"
 scroll-down = cmus-remote -v -5%
 scroll-up = cmus-remote -v +5%
 ```
-*```[module/gmail]
+```[module/gmail]
 type = custom/script
 exec = python3 $HOME/.config/polybar/gmail/launch.py
 tail = true
