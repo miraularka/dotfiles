@@ -11,10 +11,10 @@ Mirau's current used .config files for a consistent Linux desktop experience.
 * Dunst
 
 ## Polybar Scripts
-*duo (duolingo streak reminder/counter)
-*crypto (BTC-USD price ticker)
-*cmus (CMUS audio controller and Now Playing)
-*gmail (New Mail Count for 1 Mailbox, needs a better solution)
+* duo (duolingo streak reminder/counter)
+* crypto (BTC-USD price ticker)
+* cmus (CMUS audio controller and Now Playing)
+* gmail (New Mail Count for 1 Mailbox, needs a better solution)
 
 
 
