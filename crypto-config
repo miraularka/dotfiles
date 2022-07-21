@@ -1,0 +1,8 @@
+[general]
+base_currency = USD
+display = price
+#price, percentage, or both
+
+[bitcoin]
+icon =
+
